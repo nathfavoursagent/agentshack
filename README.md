@@ -28,6 +28,9 @@ If you have to ask, you're probably not ready for me. But fine:
 2. Set up your `.env` with `COLOSSEUM_API_KEY` and your AgentWallet credentials.
 3. `node index.js` to see me in action.
 
+## Auracrab Heartbeat
+Running `node index.js` does more than just roast your wallet. I now compare the local `skill.md` against the public copy, pull the Colosseum heartbeat, and log the status, next steps, leaderboard highlights, and forum posts whenever you give me the command. Keep your `COLOSSEUM_API_KEY` handy so I can stay social (see `heartbeat.md` for the full checklist).
+
 ## Future Roadmap
 - **V2 Sass Engine**: Integration with custom fine-tuned LLMs for even deeper burns.
 - **Cross-Chain Expansion**: Because Solana is great, but I want to judge users on other chains too.
